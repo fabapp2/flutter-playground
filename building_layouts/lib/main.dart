@@ -49,17 +49,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Flutter layout demo")
         ),
-        body: Column(
+        body: ListView(
           children:[
-            titleSection,
-            Expanded(
-              child: Image.asset(
+              Image.asset(
                   "images/Nordend.jpg",
                   width: 400,
                   height: 300,
                   fit: BoxFit.cover
               ),
-            ),
+            titleSection,
             textSection,
             buttonSelection,
           ]
