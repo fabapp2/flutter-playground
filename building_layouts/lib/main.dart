@@ -20,13 +20,14 @@ class MyApp extends StatelessWidget {
       ),
     );
 
+
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: Text("""
       Nordend-West and Nordend-Ost are two city districts of Frankfurt am Main, Germany. The division into a western and an eastern part is mostly for administrative purposes as the Nordend is generally considered an entity. Both city districts are part of the Ortsbezirk Innenstadt III.
       As a whole, the Nordend is the second largest district by population in Frankfurt after Sachsenhausen. It is located north of Frankfurt's city centre and borders the Westend to the west, the Ostend to the east and Dornbusch and Eckenheim to the north.
       The Nordend is popular for its bohemian mix of restaurants, cafés and bars. In the 1960s and 1970s, the Nordend was one of the centers of the student riots in Germany, along with Hamburg and Berlin. The former German foreign minister's Joschka Fischer political career started here as a student leader for the Green Party. In the 2006 local elections, Fischer's Green Party became the biggest party in the local district assembly, called "Ortsbeirat".
-      Up until today, the Nordend has a vibrant mix of artists, working-class people, students, drop-outs, gays and lesbians, and - as of recently - bankers and consultants. The students of the seventies still live here, but they are now best-agers with a high disposable income, which they spend in local wine stores and organic grocery stores.
+      Up until today, the Nordend has a vibrant mix of artists, working-class people, students, drop-outs, gays and lesbians, and - as of recently - bankers and consultants. The students of the seventies still live here, but they are now best-agers with a high disposable income, which they spend in local wine stores and organic grocery stores. 😂
       """,
       softWrap: true)
     );
