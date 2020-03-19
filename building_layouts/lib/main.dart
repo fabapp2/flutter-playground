@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:developer' as developer;
 
 void main() => runApp(MyApp());
 
@@ -68,6 +69,7 @@ class MyApp extends StatelessWidget {
   }
 
   Column _buildButtonColumn(Color color, IconData icon, String label) {
+    developer.log('building the button ${label}', name: 'my.app.category');
     return Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
